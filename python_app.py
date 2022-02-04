@@ -8,6 +8,8 @@ keys = {"review": review}
 
 prediction = r.get("http://127.0.0.1:8000/predict-review/", params=keys)
 
+# response = requests.request("GET", prediction)
 results = prediction.json()
+
 print(results["prediction"])
 print(results["Probability"])

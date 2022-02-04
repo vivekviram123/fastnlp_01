@@ -15,11 +15,15 @@ import joblib
 import uvicorn
 from fastapi import FastAPI
 
+
 app = FastAPI(
     title="Sentiment Model API",
     description="A simple API that use NLP model to predict the sentiment of the movie's reviews",
     version="0.1",
 )
+
+
+
 
 # load the sentiment model
 
