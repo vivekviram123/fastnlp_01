@@ -13,3 +13,4 @@ results = prediction.json()
 
 print(results["prediction"])
 print(results["Probability"])
+
